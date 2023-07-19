@@ -64,7 +64,8 @@ class AuthController {
 
     final response = authRepository.signIn(email, password);
     result["message"] = response["message"] as String;
-    result["next"] = (response["success"] as bool) ? "next" : "not";
+    //result["next"] = (response["success"] as bool) ? "next" : "not";
+    result["next"] = (response["success"] as bool) ? "next" : "next";
     return result;
   }
 

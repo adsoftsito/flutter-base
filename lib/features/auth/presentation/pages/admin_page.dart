@@ -26,7 +26,7 @@ class _AdminPageState extends State<AdminPage> {
               Icons.abc,
               color: Colors.transparent,
             ),
-            const Text("Amin Panel"),
+            const Text("Admin Panel"),
             TextButton(
               onPressed: logOut,
               child: const Icon(
