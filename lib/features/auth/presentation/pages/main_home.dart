@@ -74,6 +74,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 destinations: [
                   NavigationRailDestination(
                     icon: Icon(Icons.home),
+                    label: Text('Graphql'),
+                  ),
+                  NavigationRailDestination(
+                    icon: Icon(Icons.home),
                     label: Text('Home'),
                   ),
                   NavigationRailDestination(
